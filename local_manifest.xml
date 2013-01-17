@@ -60,7 +60,7 @@
 
   <!-- local misc -->
   <project path="packages/apps/FileManager" name="STS-Dev-Team/android_packages_apps_FileManager" remote="gh" revision="ics" />
-  <!--project path="kernel/motorola/omap4_xt912" name="STS-Dev-Team/kernel_omap4_xt912" remote="gh" revision="master" /-->
+  <project path="kernel/motorola/omap4_xt912" name="STS-Dev-Team/kernel_omap4_xt912" remote="gh" revision="master" />
   <!--project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="jellybean" /-->
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.4.3" name="STS-Dev-Team/arm-eabi-4.4.3" remote="gh" revision="master" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="STS-Dev-Team/arm-eabi-4.7" remote="gh" revision="master" />
