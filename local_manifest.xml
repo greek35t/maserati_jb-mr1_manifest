@@ -25,7 +25,6 @@
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/ril" />
   <remove-project name="platform/hardware/ti/omap4xxx" />
-  <remove-project name="platform/hardware/ti/wlan" />
   <remove-project name="platform/hardware/ti/wpan" />
   <remove-project name="platform/system/vold" />
 
