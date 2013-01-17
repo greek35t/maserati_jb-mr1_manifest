@@ -30,25 +30,25 @@
   <remove-project name="platform/system/vold" />
 
   <!-- AOSP replacements -->
-  <project path="build" name="STS-Dev-Team/android_build" remote="gh" revision="jb-aosp">
+  <project path="build" name="STS-Dev-Team/android_build" remote="gh" revision="jb-aosp-4.2_r1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="STS-Dev-Team/android_bionic" remote="gh" revision="jb-aosp-stock" />
-  <project path="system/core" name="STS-Dev-Team/android_system_core" remote="gh" revision="jb-aosp" />
-  <project path="system/extras" name="STS-Dev-Team/platform_system_extras" remote="gh" revision="jb" />
-  <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" remote="gh" revision="jellybean" />
-  <project path="hardware/ti/omap4xxx" name="STS-Dev-Team/android_hardware_ti_omap4xxx" remote="gh" revision="jellybean-stock" />
+  <project path="system/core" name="STS-Dev-Team/android_system_core" remote="gh" revision="jb-aosp-4.2_r1" />
+  <project path="system/extras" name="STS-Dev-Team/platform_system_extras" remote="gh" revision="jb-mr1-release" />
+  <project path="hardware/ti/wpan" name="Hashcode/android_hardware_ti_wpan" remote="gh" revision="mr1-staging" />
+  <project path="hardware/ti/omap4xxx" name="STS-Dev-Team/android_hardware_ti_omap4xxx" remote="gh" revision="mr1-staging" />
   <project path="hardware/libhardware" name="STS-Dev-Team/android_hardware_libhardware" remote="gh" revision="jellybean" />
-  <project path="hardware/libhardware_legacy" name="STS-Dev-Team/android_hardware_libhardware_legacy" remote="gh" revision="jellybean" />
+  <project path="hardware/libhardware_legacy" name="STS-Dev-Team/android_hardware_libhardware_legacy" remote="gh" revision="mr1-staging" />
   <project path="frameworks/av" name="STS-Dev-Team/android_frameworks_av" remote="gh" revision="jb-aosp" />
   <project path="frameworks/base" name="STS-Dev-Team/android_frameworks_base" remote="gh" revision="jb-aosp" />
   <project path="frameworks/native" name="STS-Dev-Team/android_frameworks_native" remote="gh" revision="jb-aosp" />
-  <project path="frameworks/opt/telephony" name="STS-Dev-Team/android_frameworks_opt_telephony" remote="gh" revision="jb-aosp"/>
+  <project path="frameworks/opt/telephony" name="STS-Dev-Team/android_frameworks_opt_telephony" remote="gh" revision="mr1-staging"/>
   <project path="packages/apps/Mms" name="STS-Dev-Team/android_packages_apps_Mms" remote="gh" revision="jb-aosp" />
   <project path="hardware/ril" name="STS-Dev-Team/android_hardware_ril" remote="gh" revision="jellybean" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="gh" revision="jellybean" />
   <project path="packages/apps/Phone" name="STS-Dev-Team/android_packages_apps_Phone" remote="gh" revision="jb-aosp" />
-  <project path="packages/apps/Settings" name="STS-Dev-Team/android_packages_apps_Settings" remote="gh" revision="jb-aosp" />
+  <project path="packages/apps/Settings" name="STS-Dev-Team/android_packages_apps_Settings" remote="gh" revision="mr1-staging" />
 
   <!-- local devices -->
   <project path="device/motorola/common" name="STS-Dev-Team/android_device_motorola_common" remote="gh" revision="jb-mr1" />
@@ -61,7 +61,7 @@
   <!-- local misc -->
   <project path="packages/apps/FileManager" name="STS-Dev-Team/android_packages_apps_FileManager" remote="gh" revision="ics" />
   <!--project path="kernel/motorola/omap4_xt912" name="STS-Dev-Team/kernel_omap4_xt912" remote="gh" revision="master" /-->
-  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="jellybean" />
+  <!--project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="jellybean" /-->
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.4.3" name="STS-Dev-Team/arm-eabi-4.4.3" remote="gh" revision="master" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="STS-Dev-Team/arm-eabi-4.7" remote="gh" revision="master" />
 
