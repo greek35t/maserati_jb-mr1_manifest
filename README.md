@@ -1,7 +1,8 @@
 maserati_jb-mr1_manifest
 ========================
 
-#THIS WILL BE UP SHORTLY WHEN ALL SOURCE IS FINISHED
+#THIS IS NOT YET BUILDABLE. CURRENT PROGRESS 30%
+#Check back soon for updates
 
 Android 4.2.1_r1 Manifest for Droid 4
 Based off of the wonderful work done by STS_Dev_team, DHacker29, and Hashcode. All credits for their work go to them appropriately. 
